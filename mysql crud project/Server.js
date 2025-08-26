@@ -16,7 +16,7 @@ const db=mysql.createConnection({
     host:'localhost',
     user:'root',
     password:'root',
-    database:'sudhakardb1'
+    database:'manojdb1'
 });
 
 db.connect((err)=>{
@@ -89,4 +89,5 @@ app.delete('/deletepost/:id', (req, res) => {
 });
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
+
 });
